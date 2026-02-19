@@ -11,7 +11,7 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="logo">🍕 Apartment Pizza Lab</div>
+            <div class="logo">Apartment Pizza Lab</div>
             <nav class="nav">
                 <a href="#playbook">Playbook</a>
                 <a href="gear.html">Gear</a>
@@ -19,19 +19,30 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Video Background -->
     <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">
-                Stop Ordering Delivery.<br>
-                <span class="highlight">Make Better Pizza in Your Apartment.</span>
-            </h1>
-            <p class="hero-subtitle">
-                Apartment-proof pizza systems: sheet-pan to steel, broiler timing, and repeatable dough—no fancy gear required.
-            </p>
-            <div class="hero-cta">
-                <a href="#playbook" class="btn btn-primary">Get the Playbook ($29)</a>
-                <a href="#free-guide" class="btn btn-secondary">Free Cheat Sheet</a>
+        <div class="hero-video-container">
+            <!-- Replace this src with your actual pizza video -->
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="images/hero-pizza.mp4" type="video/mp4">
+                <!-- Fallback for browsers that don't support video -->
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    Stop Ordering Delivery.
+                    <span class="hero-title-accent">Make Better Pizza in Your Apartment.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Apartment-proof pizza systems: sheet-pan to steel, broiler timing, and repeatable dough—no fancy gear required.
+                </p>
+                <div class="hero-cta">
+                    <a href="#playbook" class="btn btn-primary">Get the Playbook</a>
+                    <a href="#free-guide" class="btn btn-secondary">Free Cheat Sheet</a>
+                </div>
             </div>
         </div>
     </section>
@@ -42,17 +53,14 @@
             <h2>You've Tried Making Pizza. Here's What Went Wrong:</h2>
             <div class="problem-grid">
                 <div class="problem-card">
-                    <div class="problem-icon">😞</div>
                     <h3>Pale, Sad Top</h3>
                     <p>Cheese barely melted, zero browning. Looks nothing like the recipe photos.</p>
                 </div>
                 <div class="problem-card">
-                    <div class="problem-icon">💧</div>
                     <h3>Soggy Center</h3>
                     <p>The dreaded gummy middle. Slice droops. You're basically eating wet bread.</p>
                 </div>
                 <div class="problem-card">
-                    <div class="problem-icon">🧱</div>
                     <h3>Dense, Bready Crust</h3>
                     <p>No air, no leopard spots, no crisp. Just thick, chewy disappointment.</p>
                 </div>
@@ -184,7 +192,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <div class="logo">🍕 Apartment Pizza Lab</div>
+                    <div class="logo">Apartment Pizza Lab</div>
                     <p>Apartment-proof pizza systems.</p>
                 </div>
                 <div class="footer-links">
