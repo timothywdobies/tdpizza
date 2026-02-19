@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temp files
+*.log
+*.tmp
+*~
+
+# Environment variables (if you add any later)
+.env
+.env.local
+
+# Build files (if you add build process later)
+dist/
+build/
