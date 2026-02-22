@@ -243,7 +243,7 @@ a:hover {
     min-height: 100%;
     width: auto;
     height: auto;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.75);
     object-fit: cover;
 }
 
