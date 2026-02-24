@@ -198,6 +198,23 @@ a:hover {
     font-size: 1.125rem;
 }
 
+/* Pulse animation for main CTA */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(255, 68, 68, 0.5);
+    }
+    100% {
+        box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);
+    }
+}
+
+#buy-playbook {
+    animation: pulse 2s ease-in-out infinite;
+}
+
 .btn-small {
     padding: 0.625rem 1.25rem;
     font-size: 0.875rem;
@@ -293,6 +310,14 @@ a:hover {
     display: flex;
     gap: var(--spacing-sm);
     flex-wrap: wrap;
+    margin-bottom: var(--spacing-md);
+}
+
+.hero-trust {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-top: var(--spacing-sm);
+    margin-bottom: 0;
 }
 
 /* ===========================
